@@ -11,7 +11,7 @@
         "swoole",
         "hyperf",
         "devtool",
-        "gen:service",
+        "gen service",
         "command"
     ],
     "authors": [
@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ysl\\Hyperf\\Devtool\\": "src/"
+            "Hyperf\\Devtool\\": "src/"
         }
     },
     "minimum-stability": "stable"
