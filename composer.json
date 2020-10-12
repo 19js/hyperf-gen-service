@@ -1,0 +1,29 @@
+{
+    "name": "yangshuanlin/hyperf-gen-service",
+    "description": "Create a new services command for Hyperf",
+    "type": "library",
+    "require": {
+        "hyperf/devtool": "^2.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "devtool",
+        "gen:service",
+        "command"
+    ],
+    "authors": [
+        {
+            "name": "Shuanlin Yang",
+            "email": "yangshuanlin@17hongtu.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ysl\\Hyperf\\Devtool\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
